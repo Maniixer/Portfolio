@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  padding-top: 5rem;
+}
+
+section {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* NAVBAR */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ae00ff1a;
+}
+
+.nav-container {
+  max-width: 1280px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.nav-items {
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nav-socials {
+  align-items: center;
+}
+
+.nav-links {
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #213547;
+  width: 43px;
+  height: 43px;
+  border-radius: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.brand-logo {
+  width: 140px;
+}
+
+.logo-text {
+  font-family: "degular-display", sans-serif;
+  font-size: 1.6rem;
+  color: #1a1a1a;
+}
+
+.nav-button {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  margin-left: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-button:hover {
+  background-color: white;
+  color: black;
+  border-color: #1a1a1a;
+  transition: all 0.2s ease-in-out;
+}
+
+/* MAIN */
+
+button {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ae00ff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ae00ff;
+}
+
+/* HERO */
+
+.section-hero {
+  justify-content: center;
+}
+
+.hero-container {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 1rem;
+  max-width: 1240px;
+}
+
+.hero-title {
+  font-family: "degular-display", sans-serif;
+  font-size: 6rem;
+  margin: 0;
+}
+
+.hero-link {
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.hero-buttons {
+  gap: 1rem;
+}
+
+.resume {
+  background-color: #ffffff;
+  border: 1px solid #ae00ff2f;
+  color: black;
+}
+
+/* CARDS */
+
+.scrimba {
+  padding-bottom: 2rem;
+  font-family: "degular-display", sans-serif;
+}
+
+.card {
+  display: flex;
+  width: 390px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  border-radius: 4px;
+  padding: 1.5rem;
+  row-gap: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 40px 0px #ae00ff3a;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.192);
+  border-radius: 4px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-container h1 {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+  color: #ae00ff;
+}
+
+.card-publish {
+  margin-right: 1rem;
+}
+
+.card-language {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.card-language img {
+  height: 18px;
+}
+
+.card-description {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.overflow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  /* overflow-x: auto; */
+}
+
+.overflow::-webkit-scrollbar {
+  display: none;
+}
+/* MEDIA SCREEN*/
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
