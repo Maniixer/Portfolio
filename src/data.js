@@ -13,8 +13,7 @@ export default [
   {
     id: 2,
     title: "War Card Game",
-    description:
-      "Play a game of war! Take your deck, Each round you draw one card whoever got the highest card win a point until all the cards are drawn, the one with most points win the game!",
+    description: "Play a game of war! Win by drawing higher cards then your opponent.",
     published: "Oct 13, 2023",
     img: "warcard.png",
     github: "https://github.com/Maniixer/War-Card-Game",
@@ -24,7 +23,7 @@ export default [
   {
     id: 3,
     title: "Airbnb Clone",
-    description: "This project was made in Scrimba to learn how to use components, props, data and mapping over objects",
+    description: "This project was made in Scrimba to learn how to use components, props, data and mapping over objects.",
     published: "Oct 27, 2023",
     img: "airbnb.png",
     github: "https://github.com/Maniixer/AirBnb-clone",
@@ -43,6 +42,16 @@ export default [
   },
   {
     id: 5,
+    title: "Color scheme",
+    description: "Use the color wheel and pick out a scheme to get different hex values!  ",
+    published: "Sep 21, 2023",
+    img: "colorscheme.png",
+    github: "https://github.com/Maniixer/Color-Scheme-Generator",
+    link: "https://mycolorscheme.netlify.app/",
+    language: ["javascript.svg"],
+  },
+  {
+    id: 6,
     title: "Color scheme",
     description: "Use the color wheel and pick out a scheme to get different hex values!  ",
     published: "Sep 21, 2023",

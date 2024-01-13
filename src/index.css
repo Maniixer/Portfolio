@@ -11,8 +11,6 @@
 
 .container {
   max-width: 1280px;
-  padding-left: 1rem;
-  padding-right: 1rem;
   margin: 0 auto;
 }
 
@@ -56,7 +54,7 @@ nav {
 }
 
 .nav-items {
-  height: 5rem;
+  height: 4rem;
   justify-content: space-between;
 }
 
@@ -75,8 +73,8 @@ nav {
 
 .nav-links a {
   color: #213547;
-  width: 43px;
-  height: 43px;
+  width: 30px;
+  height: 30px;
   border-radius: 25%;
   display: flex;
   align-items: center;
@@ -123,20 +121,45 @@ nav {
 
 /* MAIN */
 
-button {
-  color: white;
+.button {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ae00ff;
+  flex-grow: 0;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: all 0.25s;
+  text-align: center;
 }
-button:hover {
+.button.primary {
+  color: white;
+  background-color: #ae00ff;
+}
+.button.primary:hover {
+  color: #ae00ff;
+  background-color: white;
+}
+.button.secondary {
+  color: #1a1a1a;
+  border: 1 solid #ae00ff;
+}
+.button:hover {
   border-color: #ae00ff;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.flex-shrink {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.button.danger {
+  background-color: red;
 }
 
 /* HERO */
@@ -184,7 +207,7 @@ button:hover {
 
 .card {
   display: flex;
-  width: 390px;
+  width: 300px;
   border: 1px solid rgba(0, 0, 0, 0.185);
   border-radius: 4px;
   padding: 1.5rem;
@@ -202,7 +225,7 @@ button:hover {
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 200px;
+  height: 150px;
   border: 1px solid rgba(0, 0, 0, 0.192);
   border-radius: 4px;
 }
@@ -240,7 +263,13 @@ button:hover {
 
 .card-description {
   padding-top: 1rem;
-  padding-bottom: 2rem;
+  margin-bottom: 1rem;
+  /* 
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; */
 }
 
 .card-buttons {
