@@ -65,6 +65,7 @@ nav {
 }
 
 .nav-socials {
+  gap: 1rem;
   align-items: center;
 }
 
@@ -109,7 +110,6 @@ nav {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  margin-left: 2rem;
   transition: all 0.2s ease-in-out;
 }
 
@@ -325,7 +325,8 @@ footer {
 
 @media screen and (max-width: 600px) {
   .button,
-  .nav-button {
+  .nav-button,
+  .hero-button {
     font-size: 0.875rem;
   }
 
