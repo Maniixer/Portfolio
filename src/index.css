@@ -12,6 +12,7 @@
 .container {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .flex {
@@ -72,7 +73,7 @@ nav {
 }
 
 .nav-links a {
-  color: #213547;
+  color: black;
   width: 30px;
   height: 30px;
   border-radius: 25%;
@@ -174,6 +175,7 @@ nav {
   text-align: center;
   row-gap: 1rem;
   max-width: 1240px;
+  padding: 0 2rem;
 }
 
 .hero-title {
@@ -264,6 +266,7 @@ nav {
 .card-description {
   padding-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 0.875rem;
   /* 
   display: -webkit-box;
   text-overflow: ellipsis;
@@ -288,6 +291,23 @@ nav {
 .overflow::-webkit-scrollbar {
   display: none;
 }
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  font-size: 0.875rem;
+}
+.footer-container {
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border-top: 1px solid #ae00ff1a;
+}
+
 /* MEDIA SCREEN*/
 
 @media (prefers-color-scheme: light) {
