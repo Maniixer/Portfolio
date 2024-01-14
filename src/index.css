@@ -343,6 +343,7 @@ footer {
   }
 
   .overflow {
+    scroll-snap-type: x mandatory;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -351,6 +352,7 @@ footer {
   }
 
   .card {
+    scroll-snap-align: start;
     min-width: 300px;
   }
 
