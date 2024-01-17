@@ -16,7 +16,7 @@ export function Hero() {
         </p>
         <div className="hero-buttons flex">
           <button className="nav-button">Let's chat!</button>
-          <Button as="a" className="resume">
+          <Button as="a" variant="secondary">
             Resume
           </Button>
         </div>

@@ -1,6 +1,27 @@
 export default [
   {
     id: 1,
+    title: "Floraison",
+    description:
+      "Developed and designed webshop, maintained product logistic and customer support, Made advertisement on social media platforms.",
+    published: "Sep 21, 2021",
+    img: "floraison.png",
+    github: "",
+    link: "https://floraison.bio/",
+    language: ["shopify.svg"],
+  },
+  {
+    id: 2,
+    title: "FollowYourLegend",
+    description: "Developed custome shopify pages, designed product cards and stickers",
+    published: "Sep 21, 2021",
+    img: "followyourlegend.png",
+    github: "",
+    link: "https://followyourlegend.com/",
+    language: ["shopify.svg"],
+  },
+  {
+    id: 3,
     title: "World of Wizard",
     description:
       "You play a wizard who has dwelled into the territory of Houldor, You have to defeat various monsters in order to survive!",
@@ -11,7 +32,7 @@ export default [
     language: ["javascript.svg"],
   },
   {
-    id: 2,
+    id: 4,
     title: "War Card Game",
     description: "Play a game of war! Win by drawing higher cards then your opponent.",
     published: "Oct 13, 2023",
@@ -20,18 +41,9 @@ export default [
     link: "https://warcard.netlify.app",
     language: ["react.svg", "vite.svg"],
   },
+
   {
-    id: 3,
-    title: "Airbnb Clone",
-    description: "This project was made in Scrimba to learn how to use components, props, data and mapping over objects.",
-    published: "Oct 27, 2023",
-    img: "airbnb.png",
-    github: "https://github.com/Maniixer/AirBnb-clone",
-    link: "https://mybnbclone.netlify.app/",
-    language: ["react.svg", "vite.svg"],
-  },
-  {
-    id: 4,
+    id: 5,
     title: "The memer",
     description: "Generate random memes and add top and bottom text to the image.",
     published: "Nov 20, 2023",
@@ -39,16 +51,6 @@ export default [
     github: "https://github.com/Maniixer/Meme-generator",
     link: "https://thememer.netlify.app/",
     language: ["react.svg", "vite.svg"],
-  },
-  {
-    id: 5,
-    title: "Color scheme",
-    description: "Use the color wheel and pick out a scheme to get different hex values!  ",
-    published: "Sep 21, 2023",
-    img: "colorscheme.png",
-    github: "https://github.com/Maniixer/Color-Scheme-Generator",
-    link: "https://mycolorscheme.netlify.app/",
-    language: ["javascript.svg"],
   },
   {
     id: 6,

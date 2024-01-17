@@ -20,9 +20,11 @@ export function Card({ as = "div", title, img, github, published, description, l
           <Button as="a" fullWidth href={link} target="_blank">
             Visit Website
           </Button>
-          <Button as="a" variant="secondary" href={github} target="_blank">
-            <i className="fa-brands fa-github fa-lg"></i>
-          </Button>
+          {github && (
+            <Button as="a" variant="secondary" href={github} target="_blank">
+              <i className="fa-brands fa-github fa-lg"></i>
+            </Button>
+          )}
         </div>
       </div>
     </Comp>
