@@ -359,4 +359,8 @@ footer {
   .container {
     padding: 0 1rem;
   }
+
+  .card-container h1 {
+    font-size: 1.6rem;
+  }
 }
