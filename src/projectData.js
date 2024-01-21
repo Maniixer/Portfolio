@@ -3,7 +3,7 @@ export default [
     id: 1,
     title: "Floraison",
     description:
-      "Developed and designed webshop, maintained product logistic and customer support, Made advertisement on social media platforms.",
+      "Developed and designed webshop, maintained product logistic and customer support, Made advertisements on social media platforms.",
     published: "Sep 21, 2021",
     img: "floraison.png",
     github: "",
@@ -13,7 +13,7 @@ export default [
   {
     id: 2,
     title: "FollowYourLegend",
-    description: "Developed custome shopify pages, designed product cards and stickers",
+    description: "Developed custom shopify pages, designed product cards and stickers",
     published: "Sep 21, 2021",
     img: "followyourlegend.png",
     github: "",
