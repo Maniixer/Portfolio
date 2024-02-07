@@ -15,7 +15,7 @@ export default function Navbar() {
                 <i className="fa-brands fa-x-twitter fa-lg"></i>
               </a>
             </div>
-            <button className="nav-button">Let's Chat!</button>
+            <a className="nav-button" href="mailto:maniixer@hotmail.com">Let's chat!</a>
           </div>
         </div>
       </div>

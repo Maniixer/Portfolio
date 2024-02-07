@@ -15,7 +15,7 @@ export function Hero() {
           </a>
         </p>
         <div className="hero-buttons flex">
-          <button className="nav-button">Let's chat!</button>
+          <a className="nav-button" href="mailto:maniixer@hotmail.com">Let's chat!</a>
           <Button as="a" variant="secondary">
             Resume
           </Button>
