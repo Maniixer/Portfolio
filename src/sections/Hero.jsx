@@ -7,6 +7,7 @@ export function Hero() {
   return (
     <section className="section-hero flex">
       <div className="hero-container flex">
+        <img src="../brandLogo.JPG" alt="" className="hero-img" />
         <h1 className="hero-title">A {adjective[random]} Front-end Developer From Belgium</h1>
         <p className="hero-text">
           A beginning Front-end Developer, Currently learning on{" "}

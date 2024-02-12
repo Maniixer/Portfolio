@@ -77,13 +77,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .nav-links a:hover {
   background-color: black;
   color: white;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .brand-logo {
@@ -106,14 +106,14 @@ nav {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .nav-button:hover {
   background-color: white;
   color: black;
   border-color: #1a1a1a;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 /* MAIN */
@@ -175,6 +175,12 @@ nav {
   padding: 0 2rem;
 }
 
+.hero-img{
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+}
+
 .hero-title {
   font-family: "degular-display", sans-serif;
   color: black;
@@ -207,12 +213,12 @@ nav {
   border-radius: 4px;
   padding: 1.5rem;
   row-gap: 1rem;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .card:hover {
   box-shadow: 0px 0px 40px 0px #ae00ff3a;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease;
 }
 
 .card-img {
@@ -311,7 +317,7 @@ nav {
 
 .skill:hover{
   transform: translateY(-5px);
-  box-shadow: 0px 0px 40px 0px #ae00ff3a;
+  /* box-shadow: 0px 0px 40px 0px #ae00ff3a; */
 }
 
 .skill h3 {
@@ -399,4 +405,3 @@ footer {
   .container {
     padding: 0 1rem;
   }
-
