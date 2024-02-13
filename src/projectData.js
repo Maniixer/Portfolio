@@ -8,7 +8,7 @@ export default [
     img: "floraison.png",
     github: "",
     link: "https://floraison.bio/",
-    language: [{title:"Shopify" , svg:"shopify.svg"}, {title:"Adobe Photoshop" , svg:"adobePhotoshop.svg"}],
+    language: [{title:"Shopify" , svg:"shopify.svg"}, {title:"Adobe Photoshop" , svg:"adobePhotoshop.svg"},{title:"Adobe Premiere" , svg:"adobePremiere.svg"}]
   },
   {
     id: 2,
