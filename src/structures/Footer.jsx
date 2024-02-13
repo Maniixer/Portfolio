@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-container">
-        <div className="copyright">© {curentYear} Maniixer - Made with <i className="fa-brands fa-react fa-spin" style={{color: "#00caff"}}></i> React.js</div>
+        <div className="copyright">© {curentYear} Maniixer - Made with <i className="fa-brands fa-react fa-spin" style={{color: "#00caff"}}></i>React.js</div>
         <div className="nav-links flex">
           <a href="https://github.com/Maniixer" target="_blank">
             <i className="fa-brands fa-github fa-lg"></i>
