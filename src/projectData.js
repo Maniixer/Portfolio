@@ -8,7 +8,7 @@ export default [
     img: "floraison.png",
     github: "",
     link: "https://floraison.bio/",
-    language: ["shopify.svg"],
+    language: ["shopify.svg", "adobePhotoshop.svg"],
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export default [
     img: "followyourlegend.png",
     github: "",
     link: "https://followyourlegend.com/",
-    language: ["shopify.svg"],
+    language: ["shopify.svg", "adobeIllustrator.svg" ,"adobePhotoshop.svg" ,"AdobeAfterEffects.svg", "adobePremiere.svg"],
   },
   {
     id: 3,

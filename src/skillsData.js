@@ -25,18 +25,24 @@ export default [
   },
   {
     id: 5,
+    name: "Adobe After Effects",
+    image: "AdobeAfterEffects.svg",
+    isSkill: "Design",
+  },
+  {
+    id: 6,
     name: "Adobe Premiere",
     image: "adobePremiere.svg",
     isSkill: "Design",
   },
   {
-    id: 6,
+    id: 7,
     name: "Sketch",
     image: "sketch.svg",
     isSkill: "Design",
   },
   {
-    id: 7,
+    id: 8,
     name: "Figma",
     image: "figma.svg",
     isSkill: "Design",
