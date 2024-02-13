@@ -8,7 +8,7 @@ export default [
     img: "floraison.png",
     github: "",
     link: "https://floraison.bio/",
-    language: ["shopify.svg", "adobePhotoshop.svg"],
+    language: [{title:"Shopify" , svg:"shopify.svg"}, {title:"Adobe Photoshop" , svg:"adobePhotoshop.svg"}],
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ export default [
     img: "followyourlegend.png",
     github: "",
     link: "https://followyourlegend.com/",
-    language: ["shopify.svg", "adobeIllustrator.svg" ,"adobePhotoshop.svg" ,"AdobeAfterEffects.svg", "adobePremiere.svg"],
+    language: [{title: "Shopify", svg:"shopify.svg"}, {title:"Adobe Illustrator" , svg:"adobeIllustrator.svg"} ,{title:"Adobe Photoshop" , svg:"adobePhotoshop.svg"} ,{title:"Adobe After Effects" , svg:"adobeAfterEffects.svg"}, {title:"Adobe Premiere" , svg:"adobePremiere.svg"}],
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export default [
     img: "worldofwizard.png",
     github: "https://github.com/Maniixer/Rpg-dice-game",
     link: "https://wizard-vs-orc.netlify.app",
-    language: ["javascript.svg"],
+    language: [{title:"Javascript" , svg:"javascript.svg"}],
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ export default [
     img: "warcard.png",
     github: "https://github.com/Maniixer/War-Card-Game",
     link: "https://warcard.netlify.app",
-    language: ["react.svg", "vite.svg"],
+    language: [{title:"React" , svg:"react.svg"}, {title:"Vite" , svg:"vite.svg"}],
   },
 
   {
@@ -50,7 +50,7 @@ export default [
     img: "thememer.png",
     github: "https://github.com/Maniixer/Meme-generator",
     link: "https://thememer.netlify.app/",
-    language: ["react.svg", "vite.svg"],
+    language: [{title:"React" , svg:"react.svg"}, {title:"Vite" , svg:"vite.svg"}],
   },
   {
     id: 6,
@@ -60,6 +60,6 @@ export default [
     img: "colorscheme.png",
     github: "https://github.com/Maniixer/Color-Scheme-Generator",
     link: "https://mycolorscheme.netlify.app/",
-    language: ["javascript.svg"],
+    language: [{title:"Javascript" , svg:"javascript.svg"}],
   },
 ];

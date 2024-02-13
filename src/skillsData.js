@@ -26,7 +26,7 @@ export default [
   {
     id: 5,
     name: "Adobe After Effects",
-    image: "AdobeAfterEffects.svg",
+    image: "adobeAfterEffects.svg",
     isSkill: "Design",
   },
   {

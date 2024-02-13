@@ -1,8 +1,9 @@
 import { Button } from "./Button";
+import Tooltip from '@mui/material/Tooltip';
 
 export function Card({ as = "div", title, img, github, published, description, link, language, ...rest }) {
   const Comp = as;
-  const badges = language.map((badge) => <img src={badge} key={badge} />);
+  const badges = language.map((badge) => <Tooltip title={badge.title}><img src={badge.svg} key={badge.svg} /></Tooltip>);
 
   return (
     <Comp className="card" {...rest}>
